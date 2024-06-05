@@ -1,0 +1,6 @@
+.query-card,.result-card{
+    box-shadow: var(--el-box-shadow);
+    padding: 30px;
+    max-height: 80vh;
+    overflow:auto;
+}

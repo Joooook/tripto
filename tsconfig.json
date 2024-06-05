@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",  // 这里需要配置
+    "paths": {
+      "@/*": ["./src/*"]  // 这里需要配置
+    },
+    "target": "esnext",
+    "module": "esnext",
+    // 这样就可以对 `this` 上的数据属性进行更严格的推断`
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "allowJs": true
+
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+  ],
+  /** 编译器默认排除的编译文件 */
+  "exclude": ["node_modules", "dist"]
+}
