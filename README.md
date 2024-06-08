@@ -5,14 +5,19 @@
 项目采用Vue3+Vite构建
 ## 设计规范
 ### 色彩
-元素|2|3
--|-|-
+| 元素 | 2 | 3 |
+|----|---|---|
 ### 字体
 
 
-## Customize configuration
+## todo
+- 接入LLM，实现旅游地点推荐
+- 登陆功能
+- 机票
+- 中转车票
+- 往返车票
+- 车票选择购物车功能
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 

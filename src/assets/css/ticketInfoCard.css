@@ -1,0 +1,61 @@
+.ticket-info{
+    padding: 5px;
+    border-bottom: 1px solid var(--el-border-color);
+}
+.money-flag,.money-amount{
+    color: #F75A34;
+}
+.money-flag{
+    line-height: 2;
+}
+
+.money-flag,.station{
+    font-size: 0.8vw;
+    font-weight:normal;
+}
+.money-amount,.time{
+    font-size: 1.2vw;
+    font-weight:bold;
+}
+.money{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2%;
+}
+.info-mid{
+    display: flex;
+    height: 100%;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.info-left{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+}
+
+.info-right{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+}
+.train-code,.lishi,.seat-type,.seat-left{
+    font-size:clamp(0.1rem, -0.2rem + 1.2vw, 0.7rem);
+    font-weight:normal;
+    color: #606060;
+}
+.seat-type{
+    margin-right: 10%;
+}
+
+.seat-left{
+    color: #2A909B;
+}

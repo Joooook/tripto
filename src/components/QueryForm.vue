@@ -58,15 +58,15 @@ const submitQueryForm = async (formEl) => {
     <el-form :model="queryForm" label-width="auto" :rules="rules" ref="ruleFormRef" status-icon>
         <el-form-item label="起点一" required prop="start1" >
             <el-cascader v-model="queryForm.start1" :options="props.cityOptions" :props="cascaderProps"
-                         :show-all-levels="false"/>
+                         :show-all-levels="false" placeholder="选择出发地" filterable/>
         </el-form-item>
         <el-form-item label="起点二" required prop="start2" >
             <el-cascader v-model="queryForm.start2" :options="props.cityOptions" :props="cascaderProps"
-                         :show-all-levels="false" />
+                         :show-all-levels="false" placeholder="选择出发地" filterable/>
         </el-form-item>
         <el-form-item label="目的地" required prop="dest" >
             <el-cascader v-model="queryForm.dest" :options="props.cityOptions" :props="cascaderProps"
-                         :show-all-levels="false" />
+                         :show-all-levels="false" placeholder="选择目的地" filterable/>
         </el-form-item>
         <el-form-item label="出发时间" required prop="date">
             <el-date-picker
